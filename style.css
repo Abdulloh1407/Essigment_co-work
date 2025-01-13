@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#root{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header{
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 10px 50px;
+ img{
+    width: 100px;
+    height: 20px;
+ }
+ ul{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    transition: all 0.3s ease;
+    a{
+        font-size: 16px;
+        color: black;
+    }
+    a:hover {
+        color: rgba(10, 9, 9, 0.578);
+ }
+}
+ &>div{
+    display: flex;
+    align-items: center;
+    button{
+        padding: 10px 20px;
+        background-color: none;
+        color: #FF5621;
+        border: 1px solid #fff;
+        transition: all 0.5s ease;
+    }
+    .btn{
+        color: #fff;
+        background-color: #FF5621;
+        border: 1px solid #FF5621;
+    }
+    button:hover{
+        border: 1px solid;
+        color: #FF5621;
+        background-color: #fff;
+    }
+ }
+}
+section.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 30px;
+    .text{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        h1{
+            max-width: 600px;
+            font-size: 50px;
+            color: #0c2d4d;
+            /* margin-left: 100px; */
+            span{
+                color: #FF5621;
+            }
+        }
+        p{
+            max-width: 359px;
+            font-size: 16px;
+            color: #6A6A6A;
+
+        }
+    }
+    .email{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        position: relative;
+       .log_in{
+           max-width: 445px;
+           max-height: 440px;
+           display: flex;
+           flex-direction: column;
+           gap: 17px;
+           background-color: #0c2d4d;
+           padding: 40px 42px;
+           position: absolute;
+           left: 150px;
+           top: 50px;
+           h2{
+            font-size: 35px;
+            color: #fff;
+           }
+           form{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            div{
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                padding: 8px 15px;
+                background-color: #061626;
+                label{
+                    font-size: 16px;
+                    color: #fff;
+                  
+                }
+                input{
+                    padding: 10px 8px 10px 8px;
+                    border: none;
+                    outline: none;
+                    background-color: #061626;
+                }
+            }
+        }
+        button{
+            padding: 12px 20px;
+            color: #FFF;
+            background-color: #FF5621;
+            border: 1px solid #FF5621;
+        }
+        
+       }
+       
+    }
+       
+}
+section.our_plates{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 40px;
+        padding-left: 120px;
+    .text{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        h1{
+            font-size: 36px;
+            max-width: 100px;
+            color: #0c2d4d;
+        }
+        p{
+            max-width: 452px;
+            color: gray;
+        }
+        
+    }
+    .our_plates_img{
+        display: flex;
+        align-items: center;
+        gap: 60px;
+    &>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        position: relative;
+        img{
+            width: 350px;
+            height: 380px;
+        }
+        button{
+            position: absolute;
+            bottom: 28px;
+            left: 0;
+            padding: 10px 15px;
+            color: #FF5621;
+            background-color: #FF5621;
+            border: 1px solid #FF5621;
+        }
+        p{
+            color: gray;
+        }
+    }
+        
+    }
+
+}
+
+
